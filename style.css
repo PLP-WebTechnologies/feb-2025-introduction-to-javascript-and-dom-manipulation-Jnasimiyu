@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: hsl(338, 27%, 43%); /* light pink base */
+    padding: 2rem;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ffb3c6; /* pink header */
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #6a0572; /* deep purple */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #0077b6; /* vibrant blue */
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ff006e; /* bright pink on hover */
+  }
+  
+  section {
+    margin-top: 2rem;
+    background-color: #fff0f5; /* lavender blush */
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    margin: 0.5rem 0.5rem 1rem 0;
+    padding: 0.6rem 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #ff6f61; /* coral */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #f72585; /* fuchsia */
+  }
+  
+  #box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .box {
+    background-color: #80ed99; /* mint green */
+    color: #05386b;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    transition: transform 0.2s;
+  }
+  
+  .box:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  

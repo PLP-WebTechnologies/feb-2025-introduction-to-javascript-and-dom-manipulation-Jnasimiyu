@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Interaction Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1 id="main-title">Welcome to My Page</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <p id="intro-text">My name is Caren, I am a Data Analyst with knowledge in excel,python and powerbi.I am  Financial analyst with knowledge in providing financial insights to both smes and large business by creating visuals.</p>
+      <button onclick="changeText()">Change Text</button>
+      <button onclick="changeColor()">Change Background</button>
+    </section>
+
+    <section>
+      <button onclick="addBox()">Add Box</button>
+      <button onclick="removeBox()">Remove Box</button>
+      <div id="box-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
